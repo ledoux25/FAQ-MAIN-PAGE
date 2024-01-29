@@ -58,6 +58,9 @@ main .question {
 main .question:hover {
   color: #AD28EB;
 }
+main .question:active {
+  background-color: transparent;
+}
 main .answer {
   max-height: 0px;
   opacity: 0;
@@ -82,6 +85,9 @@ main hr {
   main {
     min-width: 250px;
     width: 10%;
+  }
+  main h1 {
+    font-size: 40px !important;
   }
   main .question {
     font-size: 13px;

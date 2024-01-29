@@ -60,6 +60,9 @@ main {
   .question:hover{
     color: #AD28EB;
   }
+  .question:active{
+    background-color: transparent;
+  }
   .answer {
     max-height: 0px;
     opacity: 0;
@@ -89,6 +92,9 @@ main {
 
 @media screen and (max-width:600px) {
     main{
+        h1{
+            font-size: 40px!important;
+        }
         min-width: 250px;
         width: 10%;
         .question{
